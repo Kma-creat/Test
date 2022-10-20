@@ -6,8 +6,11 @@ https://engineering.divx.co.jp/entry/2022/07/25/174742
 ### Ruby on Rails概要
 Railsとは、プログラミング言語「Ruby」で書かれたWebアプリケーションフレームワークです。Railsは、あらゆる開発者がWebアプリケーション開発で必要となる作業やリソースを事前に想定することで、Webアプリケーションをより手軽に開発できるよう設計されています。アプリケーションを開発する際のコード量がより少なくて済むにもかかわらず、より多くの機能を実現できます。
 
+### 2. Rubyのバージョン確認
 ・Railsのバージョン確認
-~/environment $ ruby -v
+```
+$ ruby -v
+```
 ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
 
 ---
@@ -18,11 +21,7 @@ ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
 $ git clone <HTTPSのURL>
 ```
 
-### 2. Rubyのバージョン確認
-・Railsのバージョン確認
-```
-$ ruby -v
-```
+
 
 ### 3. MySQLのインストール
 
